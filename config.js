@@ -1,5 +1,5 @@
 let fs = require('fs')
-global.owner = JSON.parse(fs.readFileSync('.6283104818812/src/owner.json')) // Put your number to folder /src/owner.json
+global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) // Put your number to folder /src/owner.json
 global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Want some help?
 
 global.APIs = { // API Prefix
